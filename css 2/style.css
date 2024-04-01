@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+        font-family: "Chivo Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 12px;
+    align-items: center;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+
+
+main{
+    display: flex;
+    border: 1px solid red;
+    height: 100%;
+    margin: 10% 20%;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #968989;
+}
+.cnt-left{
+    width: 35%;
+}
+h1{
+    color: red;
+    font-style: italic;
+}
+h2{
+    color: black;
+}
