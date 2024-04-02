@@ -22,13 +22,15 @@ ul{
     display: flex;
     list-style: none;
     justify-content: space-between;
-    
+    align-items: center;
+    width: 200px;
+    padding-right: 12px;
 }
 
 
-main{
+.wyz{
     display: flex;
-    border: 1px solid red;
+    border: 1px solid rgb(60, 101, 183);
     height: 100%;
     margin: 10% 20%;
     width: 60%;
@@ -42,7 +44,21 @@ main{
 h1{
     color: red;
     font-style: italic;
+    font-size: 49px;
 }
 h2{
     color: black;
+    font-size: 30px;
+}
+.wxm{
+    height: 100%;
+    margin-right: 40px;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+
+}
+.cnt-left{
+    margin-right: 20%;
 }
